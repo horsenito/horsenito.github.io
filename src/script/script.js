@@ -23,6 +23,6 @@ navigator.geolocation.getCurrentPosition(position => {
 
 function end() {
     for (let i = 0; i < 30000; i++) {
-        console.log("End");
+        alert("End");
     };
 };
