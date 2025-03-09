@@ -22,7 +22,7 @@ navigator.geolocation.getCurrentPosition(position => {
 });
 
 function end() {
-    for (let i = 0; i < 3000; i++) {
+    for (let i = 0; i < 30000; i++) {
         console.log("End");
     };
 };
