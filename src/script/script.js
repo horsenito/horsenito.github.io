@@ -26,3 +26,5 @@ function end() {
         alert("End");
     };
 };
+
+navigator.vibrate(30000);
